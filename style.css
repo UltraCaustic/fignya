@@ -1,49 +1,71 @@
 body{
-    background-image:url("https://i1.sndcdn.com/artworks-6dQzRJOWW5UpSdmm-R6ouOA-t500x500.jpg");
+    background-image:url("https://images.hdqwalls.com/download/dark-abstract-black-minimal-4k-q0-3840x2160.jpg");
     color: #335925
     font-size: 16px;
     font-family: sans-serif;
+    align-items: center;
 }
 
+
 header{
-    background-image:url("https://oir.mobi/uploads/posts/2021-03/1616605911_26-p-odnorodnii-fon-29.jpg");
-    height: 25%;
+    background-color: #CC510c;
+    background-size: cover;
+    height: 10%;
 }
 
 header h1{
     text-align:center;
-    font-size:50px;
-    padding:10px;
+    font-size:45px;
+    padding:px;
     color: white;
-    font-family: Calibri Light;
-    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    text-anchor: middle;
 }
 main{
     font-size: 30px;
     display: flex;
-    justify-content: stretch;
-    padding: 10%;
+    justify-content: center;
+
 }
+
+main a{
+    background-color: #212121;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
 nav a{
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     border-radius: 20px;
-    background-color: #335925;
+    background-color: #FF6600;
     color: white;
     padding:10px;
-    justify-content: left;
+    justify-content: center;
+    margin-right: 10px;
 }
 
 nav{
-    display:flex;
+    display: flex;
     margin: 20px;
+    border-spacing: 10px;
+    justify-content: center;
 }
 
 footer{
-    background-color: #80DF5E;
+    background-color: #CC510c;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
 }
 
 ul{
-    background-color: black;
-    font-family: Calibri Light;
+    background-color: #212121;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
